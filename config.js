@@ -3,12 +3,12 @@ if (fs.existsSync('config.env')) require('dotenv').config({ path: __dirname+'/co
 
 
 //═══════[Required Variables]════════\\
-global.owner = process.env.OWNER_NUMBER.split(",")
+global.owner = process.env.OWNER_NUMBER.split("97470463628")
 global.mongodb = process.env.MONGODB_URI ||'mongodb+srv://vajirabot1:vajirabot1@cluster0.j0d7xng.mongodb.net/?retryWrites=true&w=majority"
 global.port= process.env.PORT || 5000
-global.email = 'sam@secktor.live'
+global.email = 'sheriehstevens2@gmail.com'
 global.github = 'https://github.com/vajirabot1/Lavosti001'
-global.location = 'Sultanpur IN'
+global.location = 'Nairobi KE'
 global.gurl = 'https://instagram.com/' // add your username
 global.sudo = process.env.SUDO || '97470463628'
 global.devs = '94719199757';
